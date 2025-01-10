@@ -3,10 +3,10 @@
 </h1>
 <br>
 <h4>
-My personal path in preparation to take the AWS Certified Data Engineer Associate<br>
+My personal path in preparation to take the AWS Certified Data Engineer Associate exam<br>
 </h4>
 <hr>
-Trilha de estudos seguida para me preparar para o exame AWD Certified Data Engineer Associate<br>
+Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engineer Associate<br>
 ////----<br>
 2025-01-10<br>
 . Re-Watch the videos about the AWS Partner Certification Readiness - AWS Partner Network Lectures gived by Kevin Zook, Brady Smith and Andy Kroll<br>
