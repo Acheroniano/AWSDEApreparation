@@ -40,6 +40,28 @@ Video 01 - Kick OFF<br>
 ........ How you ensure the ACCURACY of DATA ? How to track the lineage of data ingested, his transformations and life cycle ? <br>
 ........ You see structured data, semi-structured data and unstructured data. <br>
 ........ You have to kwnow what tools/services you use to convert schemas and how schemas evolve.<br>
+////----<br>
+...... Domain 3 : Data Operations and Support ( 22% of the exam ) <br>
+...... 1. Automate data processing by using AWS services <br>
+...... 2. Analyze data by using AWS Services <br>
+...... 3. Maintain and monitor data pipelines <br>
+...... 4. Ensure data quality <br>
+........ At this point you ingested and stored data, now is the time to process, and extract insights from the data <br>
+........ How do i automate data processing using AWS services ? <br>
+........ Focus on STEP FUNCTIONS, AWS GLUE, AWS SAGE MAKER, this exam do not focus on Machine Learning but SAGE MAKER can process data <br>
+........ You should be familiar with SAGE MAKER DATA WRANGLER and some components around it.<br>
+........ You may see LAMBDA, EVENT BRIDGE and different ways to automate and process data.<br>
+........ The exam is more focused in DATA than the analytics, but you have to look at ATHENA, QUICKSIGHT <br>
+........ AWS GLUE and CLOUDWATCH come up in the Maintain and monitor data pipelines.<br>
+........ To ensure data quality you have to use AWS GLUE, AWS GLUE DATA BREW, example: empty fields, missing data in a data set, etc. <br>
+
+
+
+
+........ 
+
+
+
 
 
 
