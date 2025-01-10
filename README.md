@@ -15,9 +15,11 @@ Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engin
 2025-01-10<br>
 . Re-Watch the videos about the AWS Partner Certification Readiness - AWS Partner Network Lectures gived by Kevin Zook, Brady Smith and Andy Kroll<br>
 . Assistir novamente os videos do curso AWS Partner Certification Readiness, ministrados por Kevin Zoook, Brady Smith e Andy Kroll.<br>
-Video 01 - Kick OFF<br>
+<h2>Video 01 - Kick OFF</h2><br>
 ...Video is about the preparation for exame, accommodations and general tips to take the exam.<br>
-...Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc <br>
+   and a overall content of the 4 Domains that exam cover.<br>
+...Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc e um <br>
+   review dos 4 domínios que o exame cobre.<br>
 ////----<br>
 <h2>...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam )</h2> <br>
 ...... 1. Perform data ingestion <br>
@@ -79,7 +81,11 @@ Video 01 - Kick OFF<br>
 useful resource:<br>
 Data Engineer- Associate ProgramGuide<br>
 . <link>https://partners.awscloud.com/rs/302-CJJ-746/images/Program%20Guide_APCR_DEA_NAMER.pdf</link>
-
+<hr>
+Video 02 - Content Review Session<br>
+WEEK 01 - AWS Tech & DATA Fundamentals<br>
+...a.<br>
+...b <br>
 ........ 
 
 
