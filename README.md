@@ -13,5 +13,5 @@ Trilha de estudos seguida para me preparar para o exame AWD Certified Data Engin
 . Assistir novamente os videos do curso AWS Partner Certification Readiness, ministrados por Kevin Zoook, Brady Smith e Andy Kroll.<br>
 Video 01 - Kick OFF<br>
 --<br>
----////
+---////<br>
 This Redme.md is in development
