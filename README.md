@@ -76,7 +76,7 @@ Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engin
 ........ Example of governance: PII identified by AWS MACIE and how to integrate it with LAKE FORMATION. <br>
 ........ At governance aspect of DATA Environment we will look at how to use AWS CONFIG <br>
 ........<br>
-<h2>The resume of this 4 Domains is a high level concise content, use exam guide to deep dive in his aspects.</h2>
+<h2>The resume of this 4 Domains is a high level concise content, use exam guide to deep dive in it´s aspects.</h2>
 ........<br>
 useful resource:<br>
 Data Engineer- Associate ProgramGuide<br>
@@ -84,8 +84,14 @@ Data Engineer- Associate ProgramGuide<br>
 <hr>
 Video 02 - Content Review Session<br>
 WEEK 01 - AWS Tech & DATA Fundamentals<br>
-...a.<br>
+...Video will cover: AWS Compute, AWS Networking, AWS Storage, AWS Databases, The Three V´s of DATA and AWS Services per "V"<br>
 ...b <br>
+
+
+
+
+
+
 ........ 
 
 
