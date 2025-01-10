@@ -1,6 +1,10 @@
 <h1>
 # AWSDEApreparation
 </h1>
+Donation: <br>
+Doações: <br>
+--
+<br>
 <br>
 <h4>
 My personal path in preparation to take the AWS Certified Data Engineer Associate exam<br>
@@ -71,7 +75,10 @@ Video 01 - Kick OFF<br>
 ........ At governance aspect of DATA Environment we will look at how to use AWS CONFIG <br>
 ........<br>
 <h2>The resume of this 4 Domains is a high level concise content, use exam guide to deep dive in his aspects.</h2>
-
+........<br>
+useful resource:<br>
+Data Engineer- Associate ProgramGuide<br>
+. <link>https://partners.awscloud.com/rs/302-CJJ-746/images/Program%20Guide_APCR_DEA_NAMER.pdf</link>
 
 ........ 
 
