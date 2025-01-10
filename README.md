@@ -15,7 +15,7 @@ Video 01 - Kick OFF<br>
 ...Video is about the preparation for exame, accommodations and general tips to take the exam.<br>
 ...Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc <br>
 ////----<br>
-...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam ) <br>
+<h2>...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam )</h2> <br>
 ...... 1. Perform data ingestion <br>
 ...... 2. Transform and process data <br>
 ...... 3. Orchestrate data pipelines <br>
@@ -26,7 +26,7 @@ Video 01 - Kick OFF<br>
 ........ as a part of applying programming concepts, you may be asked about AWS CDK and Cloud formation. <br>
 ........ you need to know aspects of CSVs, file types relationed to data structures.<br>
 ////----<br>
-...... Domain 2 : Data Store Management ( 26% of the exam ) <br>
+<h2>...... Domain 2 : Data Store Management ( 26% of the exam )</h2> <br>
 ...... 1. Choose a data store <br>
 ...... 2. Understand data cataloging systems <br>
 ...... 3. Manage the lifecycle of data <br>
@@ -41,7 +41,7 @@ Video 01 - Kick OFF<br>
 ........ You see structured data, semi-structured data and unstructured data. <br>
 ........ You have to kwnow what tools/services you use to convert schemas and how schemas evolve.<br>
 ////----<br>
-...... Domain 3 : Data Operations and Support ( 22% of the exam ) <br>
+<h2>...... Domain 3 : Data Operations and Support ( 22% of the exam )</h2> <br>
 ...... 1. Automate data processing by using AWS services <br>
 ...... 2. Analyze data by using AWS Services <br>
 ...... 3. Maintain and monitor data pipelines <br>
@@ -54,8 +54,23 @@ Video 01 - Kick OFF<br>
 ........ The exam is more focused in DATA than the analytics, but you have to look at ATHENA, QUICKSIGHT <br>
 ........ AWS GLUE and CLOUDWATCH come up in the Maintain and monitor data pipelines.<br>
 ........ To ensure data quality you have to use AWS GLUE, AWS GLUE DATA BREW, example: empty fields, missing data in a data set, etc. <br>
-
-
+////----<br>
+<h2>...... Domain 4 : Data Security and Governance ( 18% of the exam )</h2> <br>
+...... 1. Apply authentication mechanisms <br>
+...... 2. Apply authorization mechanisms <br>
+...... 3. Ensure data encryption ans masking <br>
+...... 4. Prepare logs for audity <br>
+...... 5. Understand data privacy and governance <br>
+........ At this point you knows about ingestion, storage, the operation aspect and how to process data.<br>
+........ The Domain 4 is about security and governance aspect of the data environment.<br>
+........ Aspects of VPC, IAM: example: How to process data in S3 tha it´s outside your VPC. <br>
+........ How to access data in REDSHIFT, his tables, rows and columns.<br>
+........ KMS Service to encrypt data. <br>
+........ CLOUDWATCH and CLOUDTRAIL services to audity the data environment.<br>
+........ Example of governance: PII identified by AWS MACIE and how to integrate it with LAKE FORMATION. <br>
+........ At governance aspect of DATA Environment we will look at how to use AWS CONFIG <br>
+........<br>
+<h2>The resume of this 4 Domains is a high level concise content, use exam guide to deep dive in his aspects.</h2>
 
 
 ........ 
