@@ -86,6 +86,41 @@ Video 02 - Content Review Session<br>
 WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ...Video will cover: AWS Compute, AWS Networking, AWS Storage, AWS Databases, The Three V´s of DATA and AWS Services per "V"<br>
 ...b <br>
+...... <h2>AWS Global Infrastructure review</h2> <br>
+......... AWS Regions, AWS Availability Zones, A AWS Region is collection of AZs <br>
+......... Example: AWS ap-southeast-1 (Singapore Region), has ap-southeast-1a, ap-southeast-1b and ap-southeast-1c <br>
+......... Edge Locations is smaller endpoints for hosting cached data.<br>
+......... POP (point of presence) enables delivering content like data, videos, apps and APIs globally with low latency and higher speed.<br> 
+...... <h2>AWS Compute - Amazon EC2, ECS, EKS and AWS Fargate</h2> <br>
+.........EC2 is a fancy way to say a virtual machine.<br>
+.........Remember the price models for EC2 : On-Demand, Saving Plans, Dedicated Hosts, Spot Instances and Reserved Instances.<br>
+.........AMI is a blueprint for you use to launch (intantiate) a EC2. <br>
+.........an AMI is kinda off a "container image" not equal but similar in some way, it´s related, but not equal.<br>
+.........<br>
+.........CONTAINERS: Contain all the code, runtime, system libraries, dependencies and configuration requirede for the app to run.<br>
+.........Multiple containers can run on same OS, sharing it´s resources. Containers engines runs the images.<br>
+.........A abstraction we can use is "a container" is like a zip file, with a lot of type of files within.<br>
+.........Container orchestration automates scheduling, development, networking, scaling, health monitoring and management of your container.<br>
+.........Orchestration maintain your SLAs agreements.<br>
+.........Orchestraion is Scheduling and Deployment: ECS Elastic Container Service and EKS Elastic Kubernetes Service they both do the exact same thing that is "orchestration".<br>
+.........At HOSTS you can choose EC2 or Fargate, whith EC2 i have to manage the VM and otherwise with Fargate the VM´s is managed by the AWS (serverless).<br>
+.........Fargate scales to 16 vCPU and 120GB memory per task to run DATA processing workloads, the serverless solution from AWS to containers.<br>
+.........Good to use with AI and ML development environment.<br>
+...... <h2>Scaling and Balancing</h2> <br>
+.........Amazon EC2 Auto Scaling: <br>
+.........Fleet Management: health, availability of EC2 fleet. Can replace impaired instances and balance capacity across AZs.<br>
+.........Scheduled auto scaling allow you to up or down the fleet ahead of known load changes, besides the dynamic scheduling automates the process<br>
+.........to up or down the fleet knowing some parameters, like cpu utilization.<br>
+.........Amazon EC2 Auto Scaling Groups, is like a "thermostat" to feel how to scales up or down your EC2 fleet.
+.........ELB (Elastic Load Balancer) receives incoming traffic and distributes the requests across EC2 and AZs.<br>
+
+
+
+
+
+
+
+
 
 
 
