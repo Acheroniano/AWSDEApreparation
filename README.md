@@ -83,6 +83,8 @@ Data Engineer- Associate ProgramGuide<br>
 . <link>https://partners.awscloud.com/rs/302-CJJ-746/images/Program%20Guide_APCR_DEA_NAMER.pdf</link>
 <hr>
 Video 02 - Content Review Session<br>
+..............You have to firmly understand the foundational concepts of AWS Cloud, a lot of this content will help you fix and<br>
+remember concepts will help you deep dive in more advanceds topics.<br>
 WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ...Video will cover: AWS Compute, AWS Networking, AWS Storage, AWS Databases, The Three V´s of DATA and AWS Services per "V"<br>
 ...b <br>
@@ -111,10 +113,38 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 .........Fleet Management: health, availability of EC2 fleet. Can replace impaired instances and balance capacity across AZs.<br>
 .........Scheduled auto scaling allow you to up or down the fleet ahead of known load changes, besides the dynamic scheduling automates the process<br>
 .........to up or down the fleet knowing some parameters, like cpu utilization.<br>
-.........Amazon EC2 Auto Scaling Groups, is like a "thermostat" to feel how to scales up or down your EC2 fleet.
+.........Amazon EC2 Auto Scaling Groups, is like a "thermostat" to feel how to scales up or down your EC2 fleet.<br>
 .........ELB (Elastic Load Balancer) receives incoming traffic and distributes the requests across EC2 and AZs.<br>
-
-
+.........SERVERS as the single point of contact for clients.<br>
+...... <h2>Networking and Security</h2> <br>
+.........Review of AWS Shared Responsibility Model.<br>
+.........Review of AMAZON Virtual Private Cloud (VPC).<br>
+.........How a lambda or a EC2 can process information inside a S3 bucket and how you set up that access.<br>
+.........like routing, subnets, endpoints and the security around that, how could you integrate this and allow computation to access the storage.<br>
+.........You need to urdestang security groups and network access control lists NACL.<br>
+.........Review of Identity and Access Management (IAM)<br>
+...... <h2>Storage and Databases</h2> <br>
+.........Review of AWS Storage: EFS, FSx, EBS, S3, S3 Glacier<Br>
+.........NFS (network file system) for EFS, SMB and Luster for FSx.<br>
+.........EBS will be attached to a EC2 instance.<br>
+.........You have to understand S3 concepts, like: how to protect data, how to integrate a lambda function, how data gets into a S3, how S3 lifecycle works.<br>
+.........For databases you will focus on RDS, DynamoDB, Elastic Cache. <br>
+.........MemoryDB for Redis: ULTRA FAST performance with microsecond reads, millisecond writes, scalability and enterprise security.<br>
+.........USAGE of MemoryDB >> Simplifying architecture with a database with cache, Workload with ultra-fast performance, redis data structures.<br>
+.........differences between MemoryDB and ElasticCache: <br>
+.........MemoryDB is your main Databases, resides in memory.<br>
+.........ElasticCache is a cache in front of a RDS for example.<br>
+.........Amazon NEPTUNE, related with connections in social media.<br>
+.........Amazon KEYSPACES for Apache Cassandra compatible with Cassandra Query Language fully managed by AWS.<br>
+.........Amazon DocumentDB is MongoDB compatible database, Stores, query and indexes JSON data natively using fully managed document database service.<br>
+.........For databases focus more on RDS and DynamoDB.<br>
+...... <h2>The 5 V´s of Big Data</h2><br>
+.........Volume: Total amount of data coming in to the solution, analogy: a lot of water being ingested or just a few...<br>
+.........Variety: Count and type of data sources in the solution, analogy: types of water source, lakes, rain, rivers...like PDFS, images, JSON docs, videos.<br>
+.........Velocity: Speed of data flowing throught to be processed<br>
+.........Veracity: Degree to which data is accurate, precise and trusted<br>
+.........Value: Ability to extract meaningful information from the data stored<br>
+.........A analogy to think about the 5 V´s is think about WATER being ingested in a lake or a reservoir. 
 
 
 
@@ -132,7 +162,7 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 
 
 
-
+/
 
 
 
