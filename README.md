@@ -141,13 +141,45 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ...... <h2>The 5 V´s of Big Data</h2><br>
 .........Volume: Total amount of data coming in to the solution, analogy: a lot of water being ingested or just a few...<br>
 .........Variety: Count and type of data sources in the solution, analogy: types of water source, lakes, rain, rivers...like PDFS, images, JSON docs, videos.<br>
-.........Velocity: Speed of data flowing throught to be processed<br>
-.........Veracity: Degree to which data is accurate, precise and trusted<br>
-.........Value: Ability to extract meaningful information from the data stored<br>
-.........A analogy to think about the 5 V´s is think about WATER being ingested in a lake or a reservoir. 
-
-
-
+.........Velocity: Speed of data flowing throught to be processed, analogy: Fast flowing river versus a slow moving stream, like process in real time ou batch jobs.<br>
+.........Veracity: Degree to which data is accurate, precise and trusted, analogy: you have clean water and dirty water, in data coming in can be missing values<br>
+.........Value: Ability to extract meaningful information from the data stored, analogy: there is more value in clean water, same with data dirty data,<br>
+.........missing data, impurity data provides little value to a good clean dataset <br>
+.........All analogies is to relate the 5 V´s with thinking about WATER being ingested in a lake or a reservoir. 
+.........on exam you most focus in VOLUME, VARIETY and VELOCITY.<br>
+...... <h2>DATA Source Types</h2><br> 
+.........Structured DATA: Relational databases, data is organized in rows, columns, tables, <br>
+.........Unstructured DATA: PDF, Jpeg, videos, a bunch of random data<br>
+.........Semi-Structured DATA: JSON documents (Amazon REDSHIFT)
+.........How i can handle these different DATA Types.<br>
+......Amazon Simple Storage (related to VOLUME on 5 V´s)<br> 
+......AWS Lake Formation (related to VOLUME on 5 V´s)<br>
+......Amazon RedShift (related to VOLUME on 5 V´s)<br>
+......Amazon Relational Database Service (related to VARIETY on 5 V´s)<br>
+........Set up, operate and scale a Relational SQL database in the cloud.<br>
+........Aurora, PostgreSQL, MySQL, MariaDB, OracleDB and SQL Server.<br>
+......Amazon DynamoDB (related to VARIETY on 5 V´s)<br>
+........Fast and flexible NoSQL database service for any scale.<br>
+........Serverless KEY-VALUE and document database that delivers single-digit millisecond performance.<br>
+........Maximize read throughput, atomicity consitency.
+......Amazon OpenSearch Service (related to VARIETY on 5 V´s)<br>
+........Analyze logs, crm, social media.
+........can be used as a RAG data store and using LLM model can get information from OpenSearch.
+......Amazon EMR (related to VELOCITY on 5 V´s)<br>
+........Elastic Map Reduce, run and scale Apache Spark, Hive, Presto and other Big Data Worloads.
+........for petabyte scale data processing, interactive analytics and Machine Learning using open-source frameworks.
+........HADOOP Clusters
+......Amazon MSK (related to VELOCITY on 5 V´s)<br>
+.........Amazon MSK ingest and process streaming data in REAL TIME with a fully managed APACHE KAFKA
+......Amazon Kinesis Data Streams (related to VELOCITY on 5 V´s)<br>
+........Cost-effectively process and analyzes streaming data as a managed service
+........ingest data from clickstream, iot, etc in real time.
+........Streaming data can be fan-out out multiple consumers like EC2, lambda, Spark or Amazon EMR and Amazon Managed Service for Apache Flink.
+........Amazon Kinesis is one of the focus services you have to study to be prepared for the exam.
+........Amazon Kinesis is about to how i ingest data, in real-time or near real-time and how i process streaming data.
+........i can store, i can process it, i can do a few different thing with that ingested data
+......Amazon Lambda (related to VELOCITY on 5 V´s)<br>
+........Run Code without managing servers.
 
 
 
