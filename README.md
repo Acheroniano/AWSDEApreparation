@@ -3,7 +3,7 @@
 </h1>
 <br>
 <h4>
-My personal path to prepare to take de AWS Certified Data Engineer Associate<br>
+My personal path in preparation to take de AWS Certified Data Engineer Associate<br>
 </h4>
 <hr>
 Trilha de estudos seguida para me preparar para o exame AWD Certified Data Engineer Associate<br>
