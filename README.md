@@ -12,7 +12,7 @@ Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engin
 . Re-Watch the videos about the AWS Partner Certification Readiness - AWS Partner Network Lectures gived by Kevin Zook, Brady Smith and Andy Kroll<br>
 . Assistir novamente os videos do curso AWS Partner Certification Readiness, ministrados por Kevin Zoook, Brady Smith e Andy Kroll.<br>
 Video 01 - Kick OFF<br>
-...Video is about the preparation for exame, accommodations and general tips to take the exame.<br>
+...Video is about the preparation for exame, accommodations and general tips to take the exam.<br>
 ...Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc <br>
 --<br>
 
