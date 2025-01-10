@@ -1,8 +1,8 @@
 <h1>
 # AWSDEApreparation
 </h1>
-Donation: <link>https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL</link><br>
-Doações: Pix: <link>altaperformancenubank@gmail.com</link><br>
+Donation:<br> <link>https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL</link><br>
+Doações:<br> Pix: altaperformancenubank@gmail.com<br>
 --
 <br>
 <br>
