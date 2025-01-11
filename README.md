@@ -347,8 +347,19 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ........AWS Glue Data Catalog is a metastore, it's purpose built for that.<br>
 ........Using Amazon EMR you can configure Hive to use the AWS Glue Data Catalog as its metastore, this is recommended configuration when you<br>
 ........require a persistent metastore or a metastore shared by different clusters, services, applications or AWS accounts.<br>
-
-
+........<br>
+........<br>
+........Question 4 - Infrastructure as Code<br>
+........<br>
+........A data engineer is using the AWS Cloud Development Kit (CDK) to create a repeatable deployment for their data platform.<br>
+........The data engineer has written the code and is ready to provision the resources into their AWS environment.<br>
+........Which command will turn the CDK code into a CloudFormation template?<br>
+........<br>
+........A. cdk diff<br>
+........B. cdk deploy<br>
+........C. cdk bootstrap<br>
+........D. cdk synth<br>
+........Answer: "D" - the sequence using CDK is: init, bootstrap, synth and deploy.<br>
 
 
 
