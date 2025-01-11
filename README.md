@@ -330,7 +330,22 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ........D. Use the Redshift COPY command to load the data directly in the cluster using the SUPERE data type. <br>
 ........Answer: "D", With the introduction of the SUPER data type, AMAZON REDSHIFT provides a rapid and flexible way to ingest JSON data and query it without the need to impose a schema.<br>
 ........You can now load it directly into AMAZON Redshift without ETL. <br>
-
+........<br>
+........<br>
+........Question 3 - Hive Metastore Configuration<br>
+........<br>
+........A company is using a persistent Amazon EMR cluster to process vast amounts of data and store them as external  <br>
+........tables in an S3 bucket. The Data Analyst must launch several transient EMR clusters to access the same tables  <br>
+........simultaneously. However, the metadata about the Amazon S3 external tables are stored and defined on the persistent cluster.  <br>
+........Which of the following is the most efficient way to expose the Hive mestastore with minimal effort? <br>
+........<br>
+........A. Configure Hive to use an Amazon DynamoDB as its metastore.  <br>
+........B. Configure Hive to use an External MySQL Database as its metastore. <br>
+........C. Configure Hive to use the AWS Glue Data Catalog as its metastore. <br>
+........D. Configure Hive to use Amazon Aurora as its metastore. <br>
+........Answer: "C" -  What is a Metastore ? is "data" about the data, like what is the schema, what is the data types for the data ? <br>
+........AWS Glue Data Catalog is a metastore, it's purpose built for that.<br>
+........Using Amazon EMR you can configure Hive
 
 
 
