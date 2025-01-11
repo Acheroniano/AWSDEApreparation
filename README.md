@@ -12,7 +12,8 @@ My personal path in preparation to take the AWS Certified Data Engineer Associat
 <hr>
 Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engineer Associate<br>
 ////----<br>
-2025-01-10<br>
+<h1>
+# 2025-01-10</h1><br>
 . Re-Watch the videos about the AWS Partner Certification Readiness - AWS Partner Network Lectures gived by Kevin Zook, Brady Smith and Andy Kroll<br>
 . Assistir novamente os videos do curso AWS Partner Certification Readiness, ministrados por Kevin Zoook, Brady Smith e Andy Kroll.<br>
 <h2>Video 01 - Kick OFF</h2><br>
@@ -82,7 +83,7 @@ useful resource:<br>
 Data Engineer- Associate ProgramGuide<br>
 . <link>https://partners.awscloud.com/rs/302-CJJ-746/images/Program%20Guide_APCR_DEA_NAMER.pdf</link>
 <hr>
-Video 02 - Content Review Session<br>
+<h1>Video 02 - Content Review Session</h1><br>
 ..............You have to firmly understand the foundational concepts of AWS Cloud, a lot of this content will help you fix and<br>
 remember concepts will help you deep dive in more advanceds topics.<br>
 WEEK 01 - AWS Tech & DATA Fundamentals<br>
@@ -232,5 +233,77 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ...........<br>
 ...........<br>
 ...........<br>
+<h1># 2025-01-11</h1><br>
+......Domain 1: Data Ingestion and Transformation<br>
+......Batch and Stream Processing Architectures<br>
+........Batch processing is the method computers use to periodically complete high-volume, repetitive data jobs.<br>
+........Stream processing requires ingesting a sequence of data, and incrementally updating metrics, reports and summary statistics in response to each arriving data record.<br>
+........Better for real-time monitoring and response. <br>
+........<br>
+......AWS Services for Stream Processing<br>
+........Amazon Kinesis Data Analytics and KDA Studio (both MSK and Kinesis Data Streams)<br>
+........Amazon MSK Connect for sink from to Amazon MSK<br>
+........Kinesis Data Firehose from Kinesis Data Streams, Amazon CloudWatch, etc<br>
+........AWS Lambda<br>
+........Amazon EMR<br>
+........AWS Glue<br>
+........Custom consumers<br>
+........Streaming data options on AWS: Amazon Kinesis Data Streams, Amazon Data Firehose, Amazon Managed Service for Apache Flink and Amazon Managed Streaming for Apache Kafka <br>
+........To exam focus more on Amazon Kinesis Data Streams<br>
+<hr>
+........Flow of Data: a bunch of PRODUCERS send DATA to Amazon Kinesis Data Streams, data ingested is temporally stored, when a consumer comes and pulls it down to processing,<br>
+........after that DATA can be stored somewhere or generate some visualization.<br>
+<hr>
+........<h3>Kinesis Data Streams x Kinesis Firehose</h3>
+........Kinesis Data Streams is about ingesting and processing that data.<br>
+........Kinesis Data FireHose is about to store the data.<br>
+........So if you are to process the data use Kinesis Data Streams otherwise you´re intending to store the data go with Kinesis Firehose
+........If you need something as real time as possible use Amazon Kinesis Data Streams, the ingested data in the stream stay in for 24 hours and up to 365 days.<br>
+........In Kinesis Firehose, producers send data to Kinesis Firehose, the DATA is added to a "buffer" with max size of 128 mb.<br>
+........The deliver of that DATA to conusumer, example a S3, occurs when the buffer is filled with 128 mbr or after 900 seconds.
+........You can call Kinesis Firehose a "near real-time".<br>
+........With Kinesis Data Streams you can´t do Transformation and conversion with Data.<br>
+........With Kinesis Firehose you can do Transformation and conversion using AWS GLUE or AWS Lambda.<br>
+........As Data compression you can´t compress data in stream with Amazon Kinesis Data Stream, but you can compress with gzip, Snappy, zip with Kinesis Firehose.<br>
+<hr>
+........ETL - Extract, transform and load: the process of combining data from multiple sources ina a large repository called data warehouse.<br>
+........ETL uses a set of buiness rules to clean, organize and prepare raw data for storage, data analytics and Machine Learning (ML).<br>
+........AWS Glue is the main service you use to do ETL.<br>
+........AWS Glue can use JDBC or ODBC to connect to data sources outside AWS.<br>
+<hr>
+........Orchestrate data Pipelines on AWS<br>
+........Use AWS Step Functions and AMAZON Managed Workflows for Apache Airflow (MWAA) to simplify ETL Workflow management.<br>
+........AWS Step Functions workflow types.<br>
+........Standard workflows can run for up one year, and have exactly-once workflow transformation.<br>
+........Express workflows can run for up five minutes, and have at-least-once workflow transformation.<br>
+........Express is more suitable for high-event-rate and streaming data processing.<br>
+........For long-running, auditable, debugging and show execution history use Standard workflows.<br>
+........<br>
+........CI/CD - Continuos integration and continuous delivery<br>
+........AWS CodePipeline: AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy<br>
+........<br>
+........AWS Lambda<br>
+........To scale up Lambda Functions you need to add more memory.<br>
+........Lambda execution models : Synchronous (push), Asynchronous (event based) and Stream (Poll-based).<br>
+........Lambda maximum invocation timeout limit is 15 minutes.<br>
+........<br>
+........You you not have get-in-depth question on exam about CDK and Cloudformation but you got to know.<br>
+........CloudFormation is a foundation of Infrastructure as a code.
+........AWS CDK you can write code in programming languages, example: Python.<br>
+........and CDK will call CloudFormation to deploy your code.<br>
+........AWS SAM Serverless Application Model (AWS SAM).<br>
+........<br>
+........Apache Parquet and Apache ORC File formats.<br>
+........is more compressible and more fast to be queried.<br>
+
+
+
+
+
+
+
+
+
+
 ---////<br><br>
 This Redme.md is in development<br>
