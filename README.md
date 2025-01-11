@@ -234,6 +234,7 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ...........<br>
 ...........<br>
 <h1># 2025-01-11</h1><br>
+<h1>Video 03 - Content Review Week 2</h1><br>
 ......Domain 1: Data Ingestion and Transformation<br>
 ......Batch and Stream Processing Architectures<br>
 ........Batch processing is the method computers use to periodically complete high-volume, repetitive data jobs.<br>
@@ -295,7 +296,40 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ........<br>
 ........Apache Parquet and Apache ORC File formats.<br>
 ........is more compressible and more fast to be queried.<br>
-
+........
+........
+<h1>Video 04 - Exam Strategy Session</h1> <br>
+........Domain 1 - Exam Questions!<br>
+........<br>
+........Question 1 - Data Lake Automation <br>
+........
+........A legal firm manages various on-premises servers containing documents in text, PDF and CSV files. These contain confidential information related to contracts, lawsuits and customer data.<br>
+........The firm aims to migrate and centralize data into a data lake.<br>
+........The company wants to implement automated processes for sensitive data verification and segregation, including long-term storage of findings for auditing purposes.<br>
+........Which tasks would achieve this goal with minimum effort ? (Select 2 options) <br>
+........<br>
+........A. Utilize Amazon EFS for data extraction, transformation and loading into the Data Lake.<br>
+........B. Configure Amazon S3 bucket policies to segregate sensitive and non-sensitive data.<br>
+........C. Deplou Amazon Macie to automatically discover, classify and protect sensitive data. <br>
+........D. Use AWS Glue DataBrew to automatically discover, classify and protect sensitive data. <br>
+........Answer: "B" and "C" <br>
+........<br>
+........<br>Tip: Glue DataBrew is more like a visualization tool. <br>
+........<br>
+........<br>
+........Question 2 - Data Warehouse ingestion<br>
+........<br>
+........A company is collecting data from sensors located around the world.<br>
+........The data is collected and stored in an S3 bucket as JSON files. A data engineer needs to load this data into their data warehouse running in an Amazon Redshift cluster.<br>
+........Once the data is loaded, it will be queried and used to create visualizations.<br>
+........Which solution would meet the requirements with the least operational overhead ?<br>
+........<br>
+........A. Create a glue workflow to convert the data to ORC format. Then use the Redshift COPY command to load the data directly in the cluster using the VARCHAR data type. <br>
+........B. Create a glue workflow to convert the data to PARQUET format. The use the Redshift COPY command to load the data directly in the cluster using the SUPER data type. <br>
+........C. Use the Redshift COPY command to load the data directly in the cluster using the VARCHAR data type. <br>
+........D. Use the Redshift COPY command to load the data directly in the cluster using the SUPERE data type. <br>
+........Answer: "D", With the introduction of the SUPER data type, AMAZON REDSHIFT provides a rapid and flexible way to ingest JSON data and query it without the need to impose a schema.<br>
+........You can now load it directly into AMAZON Redshift without ETL. <br>
 
 
 
