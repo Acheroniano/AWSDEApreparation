@@ -360,6 +360,26 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ........C. cdk bootstrap<br>
 ........D. cdk synth<br>
 ........Answer: "D" - the sequence using CDK is: init, bootstrap, synth and deploy.<br>
+........<br>
+........<br>
+........Question 5 - SQL<br>
+........<br>
+........<br>A data engineer is working with an Amazon RDS database instance in an AWS environment.<br>
+........The database contains a table named "employees" with the following columns:<br>
+........<br>
+........- employee_id (INT, Primary Key)<br>
+........- first_name (VARCHAR(50))<br>
+........- last_name (VARCHAR(50))<br>
+........- department (VARCHAR(50))<br>
+........<br>
+........They need to retrieve a list of all employee´s first names and last names from the "employees" table.<br>
+........Which of the following SQL queries would correctly accomplish this task?<br>
+........<br>
+........A. SELECT first_name, last_name FROM employees;<br>
+........B. GET first_name, last_name FROM employees;<br>
+........C. RETRIEVE first_name, last_name FROM employees;<br>
+........D. SELECT employees FROM first_name, last_name;<br>
+........Answer: "A" <br>
 
 
 
