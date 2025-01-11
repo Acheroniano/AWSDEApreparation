@@ -345,7 +345,9 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ........D. Configure Hive to use Amazon Aurora as its metastore. <br>
 ........Answer: "C" -  What is a Metastore ? is "data" about the data, like what is the schema, what is the data types for the data ? <br>
 ........AWS Glue Data Catalog is a metastore, it's purpose built for that.<br>
-........Using Amazon EMR you can configure Hive
+........Using Amazon EMR you can configure Hive to use the AWS Glue Data Catalog as its metastore, this is recommended configuration when you<br>
+........require a persistent metastore or a metastore shared by different clusters, services, applications or AWS accounts.<br>
+
 
 
 
