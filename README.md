@@ -380,6 +380,10 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 ........C. RETRIEVE first_name, last_name FROM employees;<br>
 ........D. SELECT employees FROM first_name, last_name;<br>
 ........Answer: "A" <br>
+........<br>
+https://www.linkedin.com/posts/f%C3%A1bio-samuel-dos-santos-canedo-2708b533_aws-dea-dataengineerassociate-activity-7197287819017367553-ja8D?utm_source=share&utm_medium=member_desktop
+<br>
+........On AWS Data Engineer Associate, you need to focus on AWS Redshift, AWS GLUE, AWS S3, AWS Lake Formation, AWS Kinesis Data Streams, AWS Kinesis Firehose, set data pipelines.<br>
 
 
 
