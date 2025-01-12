@@ -2,41 +2,33 @@
 --\
 <a href="https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL" target="_blank">
   <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal Donation" width="100" height="50">
-</a>
-
-
-Donation:<br> <link>https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL</link><br>
-Doações:<br> Pix: altaperformancenubank@gmail.com<br>
+</a><br>
+###### Doações:<br>Pix: altaperformancenubank@gmail.com<br>
 --
-<br>
-<br>
-<h4>
-My personal path in preparation to take the AWS Certified Data Engineer Associate exam<br>
-</h4>
+#### My personal path in preparation to take the AWS Certified Data Engineer Associate exam<br>
+###### Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engineer Associate
+# 2025-01-10
+###### .Re-Watch the videos about the AWS Partner Certification Readiness - AWS Partner Network Lectures gived by Kevin Zook, Brady Smith and Andy Kroll.
+###### .Assistir novamente os videos do curso AWS Partner Certification Readiness, ministrados por Kevin Zoook, Brady Smith e Andy Kroll.
+# Video 01 - Kick OFF
+###### ...Video is about the preparation for exame, accommodations and general tips to take the exam
+######   and a overall content of the 4 Domains that exam cover.
+###### Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc e um
+###### review dos 4 domínios que o exame cobre
 <hr>
-Trilha de estudos seguida para me preparar para o exame AWS Certified Data Engineer Associate<br>
-////----<br>
-<h1>
-# 2025-01-10</h1><br>
-. Re-Watch the videos about the AWS Partner Certification Readiness - AWS Partner Network Lectures gived by Kevin Zook, Brady Smith and Andy Kroll<br>
-. Assistir novamente os videos do curso AWS Partner Certification Readiness, ministrados por Kevin Zoook, Brady Smith e Andy Kroll.<br>
-<h2>Video 01 - Kick OFF</h2><br>
-...Video is about the preparation for exame, accommodations and general tips to take the exam.<br>
-   and a overall content of the 4 Domains that exam cover.<br>
-...Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc e um <br>
-   review dos 4 domínios que o exame cobre.<br>
-////----<br>
-<h2>...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam )</h2> <br>
-...... 1. Perform data ingestion <br>
-...... 2. Transform and process data <br>
-...... 3. Orchestrate data pipelines <br>
-...... 4. Apply programming concepts <br>
-........ Data ingestion, is about stream data, database migration and how do i get data into Redshift ? <br>
-........ Focus in ECS, EKS, Fargate, Lambda and Glue ( Glue is one of the most important topics of the exam) <br>
-........ Step functions, Pipelines process, SNS, SQS, some questions in exam may touch and ask about your SQL skills <br>
-........ as a part of applying programming concepts, you may be asked about AWS CDK and Cloud formation. <br>
-........ you need to know aspects of CSVs, file types relationed to data structures.<br>
-////----<br>
+
+## ...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam )
+###### ...... 1. Perform data ingestion
+###### ...... 2. Transform and process data
+###### ...... 3. Orchestrate data pipelines
+###### ...... 4. Apply programming concepts
+###### ........ Data ingestion, is about stream data, database migration and how do i get data into Redshift ?
+###### ........ Focus in ECS, EKS, Fargate, Lambda and Glue ( Glue is one of the most important topics of the exam)
+###### ........ Step functions, Pipelines process, SNS, SQS, some questions in exam may touch and ask about your SQL skills
+###### ........ as a part of applying programming concepts, you may be asked about AWS CDK and Cloud formation.
+###### ........ you need to know aspects of CSVs, file types relationed to data structures.
+<hr>
+
 <h2>...... Domain 2 : Data Store Management ( 26% of the exam )</h2> <br>
 ...... 1. Choose a data store <br>
 ...... 2. Understand data cataloging systems <br>
