@@ -384,7 +384,8 @@ WEEK 01 - AWS Tech & DATA Fundamentals<br>
 https://www.linkedin.com/posts/f%C3%A1bio-samuel-dos-santos-canedo-2708b533_aws-dea-dataengineerassociate-activity-7197287819017367553-ja8D?utm_source=share&utm_medium=member_desktop
 <br>
 ........On AWS Data Engineer Associate, you need to focus on AWS Redshift, AWS GLUE, AWS S3, AWS Lake Formation, AWS Kinesis Data Streams, AWS Kinesis Firehose, set data pipelines.<br>
-
+<h1># 2025-01-12 - 1st Simulated Session of a exam</h1><br>
+........13% of a overall of 200 questions answered right. As a expected low rate. Keep studying.<br>
 
 
 
