@@ -1,6 +1,11 @@
 <h1>
 # AWSDEApreparation
 </h1>
+
+
+https://newsroom.paypal-corp.com/image/PayPal_Logo_White_3x2.png
+
+[![PayPal](https://newsroom.paypal-corp.com/image/PayPal_Logo_White_3x2.png)](https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL)
 Donation:<br> <link>https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL</link><br>
 Doações:<br> Pix: altaperformancenubank@gmail.com<br>
 --
