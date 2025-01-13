@@ -17,7 +17,6 @@
 ######   and a overall content of the 4 Domains that exam cover.
 ###### Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc e um
 ###### review dos 4 domínios que o exame cobre
-<hr>
 ## ...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam )
 ###### ...... 1. Perform data ingestion
 ###### ...... 2. Transform and process data
@@ -28,7 +27,6 @@
 ###### ........ Step functions, Pipelines process, SNS, SQS, some questions in exam may touch and ask about your SQL skills
 ###### ........ as a part of applying programming concepts, you may be asked about AWS CDK and Cloud formation.
 ###### ........ you need to know aspects of CSVs, file types relationed to data structures.
-<hr>
 ## ...... Domain 2 : Data Store Management ( 26% of the exam )
 ###### ...... 1. Choose a data store
 ###### ...... 2. Understand data cataloging systems
@@ -43,7 +41,6 @@
 ###### ........ How you ensure the ACCURACY of DATA ? How to track the lineage of data ingested, his transformations and life cycle ?
 ###### ........ You see structured data, semi-structured data and unstructured data.
 ###### ........ You have to kwnow what tools/services you use to convert schemas and how schemas evolve.
-<hr>
 ## ...... Domain 3 : Data Operations and Support ( 22% of the exam )
 
 ...... 1. Automate data processing by using AWS services <br>
