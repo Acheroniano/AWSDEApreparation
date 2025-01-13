@@ -3,6 +3,8 @@
 <a href="https://www.paypal.com/donate/?business=C5ZXDE6A7M28E&no_recurring=0&item_name=Donation+for+Owner+of+this+PayPal+Account&currency_code=BRL" target="_blank">
   <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal Donation" width="100" height="50">
 </a><br>
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Acheroniano)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/f%C3%A1bio-samuel-dos-santos-canedo-2708b533/)
 ###### Doações:<br>Pix: altaperformancenubank@gmail.com<br>
 --
 #### My personal path in preparation to take the AWS Certified Data Engineer Associate exam<br>
@@ -382,7 +384,12 @@ https://www.linkedin.com/posts/f%C3%A1bio-samuel-dos-santos-canedo-2708b533_aws-
 ........On AWS Data Engineer Associate, you need to focus on AWS Redshift, AWS GLUE, AWS S3, AWS Lake Formation, AWS Kinesis Data Streams, AWS Kinesis Firehose, set data pipelines.<br>
 <h1># 2025-01-12 - 1st Simulated Session of a exam</h1><br>
 ........13% of a overall of 200 questions answered right. As a expected low rate. Keep studying.<br>
-
+<hr>
+# 2025-01-13 - Video 05 - Content Review: Development with AWS Services
+<br>
+### Amazon Athena, Amazon QuickSight, Serverless Analytics and AWS Hadoop Fundamentals.
+###### Choosing a data store, Understand data cataloging systems, Manage the lifecycle of data anda Design data models and schema evolution.
+###### Review Amazon S3 Storage Types: S3 Intelligent-Tiering, S3 Standard, S3 Standard-IA, S3 Glacier, S3 Glacier Deep Archive, S3 One Zone-IA.
 
 
 
