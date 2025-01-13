@@ -390,7 +390,9 @@ https://www.linkedin.com/posts/f%C3%A1bio-samuel-dos-santos-canedo-2708b533_aws-
 ### Amazon Athena, Amazon QuickSight, Serverless Analytics and AWS Hadoop Fundamentals.
 ###### Choosing a data store, Understand data cataloging systems, Manage the lifecycle of data anda Design data models and schema evolution.
 ###### Review Amazon S3 Storage Types: S3 Intelligent-Tiering, S3 Standard, S3 Standard-IA, S3 Glacier, S3 Glacier Deep Archive, S3 One Zone-IA.
-
+###### Review Amazon EFS Elastic File System => Using NFS Protocol, is just a file system designed for multiple lambda functions or EC2 instances<br>
+connect to one central file share, it´s grow and shrink as data is added or deleted.
+###### Review EBS Amazon Elastioc Block Storage: it´s your storage directly attached to your EC2 instance.
 
 
 
