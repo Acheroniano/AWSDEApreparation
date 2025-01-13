@@ -18,7 +18,6 @@
 ###### Video com dicas genéricas sobre o exame, acomodações para solicitar 30 minutos a mais, etc e um
 ###### review dos 4 domínios que o exame cobre
 <hr>
-
 ## ...... Domain 1 : Data Ingestion and Transformation ( 34% of the exam )
 ###### ...... 1. Perform data ingestion
 ###### ...... 2. Transform and process data
@@ -30,23 +29,23 @@
 ###### ........ as a part of applying programming concepts, you may be asked about AWS CDK and Cloud formation.
 ###### ........ you need to know aspects of CSVs, file types relationed to data structures.
 <hr>
+## ...... Domain 2 : Data Store Management ( 26% of the exam )
+###### ...... 1. Choose a data store
+###### ...... 2. Understand data cataloging systems
+###### ...... 3. Manage the lifecycle of data
+###### ...... 4. Design data models and schema evolution
+###### ........ Choose a data store like: S3, lake formation; ...and you may store data in a database like Redshift or 
+###### ........ in relational data service (RDS).
+###### ........ After you ingest data and after you store the data, you have to catalog it.
+###### ........ You have to look at GLUE DATA CATALOG, APACHE HIVE, METASTORES.
+###### ........ How do you get the SCHEMA of the data with GLUE CRAWLER.
+###### ........ You will use the S3 Life cycle policies, example: if you have data that´s 60 days old, how i should handle it ?
+###### ........ How you ensure the ACCURACY of DATA ? How to track the lineage of data ingested, his transformations and life cycle ?
+###### ........ You see structured data, semi-structured data and unstructured data.
+###### ........ You have to kwnow what tools/services you use to convert schemas and how schemas evolve.
+<hr>
+## ...... Domain 3 : Data Operations and Support ( 22% of the exam )
 
-<h2>...... Domain 2 : Data Store Management ( 26% of the exam )</h2> <br>
-...... 1. Choose a data store <br>
-...... 2. Understand data cataloging systems <br>
-...... 3. Manage the lifecycle of data <br>
-...... 4. Design data models and schema evolution <br>
-........ Choose a data store like: S3, lake formation; ...and you may store data in a database like Redshift or <br>
-........ in relational data service (RDS). <br>
-........ After you ingest data and after you store the data, you have to catalog it. <br>
-........ You have to look at GLUE DATA CATALOG, APACHE HIVE, METASTORES.<br>
-........ How do you get the SCHEMA of the data with GLUE CRAWLER.<br>
-........ You will use the S3 Life cycle policies, example: if you have data that´s 60 days old, how i should handle it ?<br>
-........ How you ensure the ACCURACY of DATA ? How to track the lineage of data ingested, his transformations and life cycle ? <br>
-........ You see structured data, semi-structured data and unstructured data. <br>
-........ You have to kwnow what tools/services you use to convert schemas and how schemas evolve.<br>
-////----<br>
-<h2>...... Domain 3 : Data Operations and Support ( 22% of the exam )</h2> <br>
 ...... 1. Automate data processing by using AWS services <br>
 ...... 2. Analyze data by using AWS Services <br>
 ...... 3. Maintain and monitor data pipelines <br>
@@ -387,13 +386,53 @@ https://www.linkedin.com/posts/f%C3%A1bio-samuel-dos-santos-canedo-2708b533_aws-
 <hr>
 # 2025-01-13 - Video 05 - Content Review: Development with AWS Services
 <br>
-### Amazon Athena, Amazon QuickSight, Serverless Analytics and AWS Hadoop Fundamentals.<br>
+### Amazon Athena, Amazon QuickSight, Serverless Analytics and AWS Hadoop Fundamentals.
+<br>
 ###### Choosing a data store, Understand data cataloging systems, Manage the lifecycle of data anda Design data models and schema evolution.<br>
 ###### Review Amazon S3 Storage Types: S3 Intelligent-Tiering, S3 Standard, S3 Standard-IA, S3 Glacier, S3 Glacier Deep Archive, S3 One Zone-IA.<br>
 ###### Review Amazon EFS Elastic File System => Using NFS Protocol, is just a file system designed for multiple lambda functions or EC2 instances<br>
 connect to one central file share, it´s grow and shrink as data is added or deleted.<br>
 ###### Review EBS Amazon Elastioc Block Storage: it´s your storage directly attached to your EC2 instance.<br>
-
+<hr>
+### AWS Transfer Family: SFTP, FTPS, FTP and AS2 Protocols.
+<br>
+### Amaozon RedShift: is a DATA WAREHOUSE<br>
+###### DC2 = Dense Compute Node, we have a cluster made of a Leader Node (the Brain, realizes queries and computing) and Compute nodes. All inteligence stays in leader node.
+###### Data is really stored in Compute nodes and it has the muscles, in further computer nodes have slices; slices is just a allocation of Ram and Storage and is where the computation actually happens.
+###### You have to know for these cluster is with DC2 nodes you have to scale compute and storage together.
+<br>
+###### Amazon Redshift cluster architecture - RA3.
+###### In RA3 you have leader node, compute nodes but the difference is you can scale compute and storage separately because RMS (Redshift Managed Storage) manages all for you.
+###### RA3 is recommended becaus it has lot of benefits compared to DC2.
+###### Redshift Spectrum can run queries on S3, Redshift Federated Query can run queries on RDS.
+<br>
+###### Columnar Data Storage.<br>
+###### RDS ->> OLTP ->> CSV ........ or ........ REDSHIFT ->> OLAP ->> Parquet<br>
+###### 
+<hr>
+### Data Cataloging Services : AWS GLUE
+####### DATA Catalog is basic a index of where the data is located and what the schema of the data.
+####### data catalog is a metadata, the data about the data.
+####### AWS Glue crawlers: Connects to a data store, extract the schema of your data then populates the Data Catalog.
+####### AWS Glu Triggers: Scheduled, Conditional and On-Demand. 
+<hr>
+####### How i load data from S3 into Redshift? You do that with the Redshift COPY command; and for a bunch files use manifest file.
+####### Amazon S3 Lifecycle: Review how data noves between S3 Storage types.
+####### Amazon S3 Versioning, once you turn versioning on, a change to an object occurr an another copy of the object is created and stored.
+<hr>
+####### Amazon DynamoDB - Time to Live TTL
+####### Amazon Redshift Distribution styles
+####### AUTO, EVEN, KEY and ALL
+####### in AUTO assigns a optimal distribution style based on the size of the table data, when the tables grows larger, Amazon REDSHIFT might change the distribution style, let´s say to KEY.
+####### in EVEN is appropriate when a table doesn´t participate in joins or when there isn´t a clear choice between KEY and ALL distribution.
+####### in KEY the rows are distributed according to the values in one column.
+####### in ALL a entire COPY of the Table is on every node, because of this is not great for large datasets but for small data sets.
+####### Look at documentation of REDSHIFT for AMAZON REDSHIFT SCHEMA DESIGN
+<br>
+#### AWS Database Migration Service
+####### Trusted way to migrate 1M+ databases with minimal downtime
+####### AWS DMS and AWS Schema Conversion Tool (SCT) will use AWS SCT.
+####### 
 
 
 
