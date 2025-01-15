@@ -81,101 +81,99 @@
 ### WEEK 01 - AWS Tech & DATA Fundamentals
 ###### ...Video will cover: AWS Compute, AWS Networking, AWS Storage, AWS Databases, The Three V´s of DATA and AWS Services per "V"
 ## AWS Global Infrastructure review 
-###### ........ AWS Regions, AWS Availability Zones, A AWS Region is collection of AZs
-
-
-......... Example: AWS ap-southeast-1 (Singapore Region), has ap-southeast-1a, ap-southeast-1b and ap-southeast-1c <br>
-......... Edge Locations is smaller endpoints for hosting cached data.<br>
-......... POP (point of presence) enables delivering content like data, videos, apps and APIs globally with low latency and higher speed.<br> 
-...... <h2>AWS Compute - Amazon EC2, ECS, EKS and AWS Fargate</h2> <br>
-.........EC2 is a fancy way to say a virtual machine.<br>
-.........Remember the price models for EC2 : On-Demand, Saving Plans, Dedicated Hosts, Spot Instances and Reserved Instances.<br>
-.........AMI is a blueprint for you use to launch (intantiate) a EC2. <br>
-.........an AMI is kinda off a "container image" not equal but similar in some way, it´s related, but not equal.<br>
-.........<br>
-.........CONTAINERS: Contain all the code, runtime, system libraries, dependencies and configuration requirede for the app to run.<br>
-.........Multiple containers can run on same OS, sharing it´s resources. Containers engines runs the images.<br>
-.........A abstraction we can use is "a container" is like a zip file, with a lot of type of files within.<br>
-.........Container orchestration automates scheduling, development, networking, scaling, health monitoring and management of your container.<br>
-.........Orchestration maintain your SLAs agreements.<br>
-.........Orchestraion is Scheduling and Deployment: ECS Elastic Container Service and EKS Elastic Kubernetes Service they both do the exact same thing that is "orchestration".<br>
-.........At HOSTS you can choose EC2 or Fargate, whith EC2 i have to manage the VM and otherwise with Fargate the VM´s is managed by the AWS (serverless).<br>
-.........Fargate scales to 16 vCPU and 120GB memory per task to run DATA processing workloads, the serverless solution from AWS to containers.<br>
-.........Good to use with AI and ML development environment.<br>
-...... <h2>Scaling and Balancing</h2> <br>
-.........Amazon EC2 Auto Scaling: <br>
-.........Fleet Management: health, availability of EC2 fleet. Can replace impaired instances and balance capacity across AZs.<br>
-.........Scheduled auto scaling allow you to up or down the fleet ahead of known load changes, besides the dynamic scheduling automates the process<br>
-.........to up or down the fleet knowing some parameters, like cpu utilization.<br>
-.........Amazon EC2 Auto Scaling Groups, is like a "thermostat" to feel how to scales up or down your EC2 fleet.<br>
-.........ELB (Elastic Load Balancer) receives incoming traffic and distributes the requests across EC2 and AZs.<br>
-.........SERVERS as the single point of contact for clients.<br>
-...... <h2>Networking and Security</h2> <br>
-.........Review of AWS Shared Responsibility Model.<br>
-.........Review of AMAZON Virtual Private Cloud (VPC).<br>
-.........How a lambda or a EC2 can process information inside a S3 bucket and how you set up that access.<br>
-.........like routing, subnets, endpoints and the security around that, how could you integrate this and allow computation to access the storage.<br>
-.........You need to urdestang security groups and network access control lists NACL.<br>
-.........Review of Identity and Access Management (IAM)<br>
-...... <h2>Storage and Databases</h2> <br>
-.........Review of AWS Storage: EFS, FSx, EBS, S3, S3 Glacier<Br>
-.........NFS (network file system) for EFS, SMB and Luster for FSx.<br>
-.........EBS will be attached to a EC2 instance.<br>
-.........You have to understand S3 concepts, like: how to protect data, how to integrate a lambda function, how data gets into a S3, how S3 lifecycle works.<br>
-.........For databases you will focus on RDS, DynamoDB, Elastic Cache. <br>
-.........MemoryDB for Redis: ULTRA FAST performance with microsecond reads, millisecond writes, scalability and enterprise security.<br>
-.........USAGE of MemoryDB >> Simplifying architecture with a database with cache, Workload with ultra-fast performance, redis data structures.<br>
-.........differences between MemoryDB and ElasticCache: <br>
-.........MemoryDB is your main Databases, resides in memory.<br>
-.........ElasticCache is a cache in front of a RDS for example.<br>
-.........Amazon NEPTUNE, related with connections in social media.<br>
-.........Amazon KEYSPACES for Apache Cassandra compatible with Cassandra Query Language fully managed by AWS.<br>
-.........Amazon DocumentDB is MongoDB compatible database, Stores, query and indexes JSON data natively using fully managed document database service.<br>
-.........For databases focus more on RDS and DynamoDB.<br>
-...... <h2>The 5 V´s of Big Data</h2><br>
-.........Volume: Total amount of data coming in to the solution, analogy: a lot of water being ingested or just a few...<br>
-.........Variety: Count and type of data sources in the solution, analogy: types of water source, lakes, rain, rivers...like PDFS, images, JSON docs, videos.<br>
-.........Velocity: Speed of data flowing throught to be processed, analogy: Fast flowing river versus a slow moving stream, like process in real time ou batch jobs.<br>
-.........Veracity: Degree to which data is accurate, precise and trusted, analogy: you have clean water and dirty water, in data coming in can be missing values<br>
-.........Value: Ability to extract meaningful information from the data stored, analogy: there is more value in clean water, same with data dirty data,<br>
-.........missing data, impurity data provides little value to a good clean dataset <br>
-.........All analogies is to relate the 5 V´s with thinking about WATER being ingested in a lake or a reservoir. 
-.........on exam you most focus in VOLUME, VARIETY and VELOCITY.<br>
-...... <h2>DATA Source Types</h2><br> 
-.........Structured DATA: Relational databases, data is organized in rows, columns, tables, <br>
-.........Unstructured DATA: PDF, Jpeg, videos, a bunch of random data<br>
-.........Semi-Structured DATA: JSON documents (Amazon REDSHIFT)
-.........How i can handle these different DATA Types.<br>
-......Amazon Simple Storage (related to VOLUME on 5 V´s)<br> 
-......AWS Lake Formation (related to VOLUME on 5 V´s)<br>
-......Amazon RedShift (related to VOLUME on 5 V´s)<br>
-......Amazon Relational Database Service (related to VARIETY on 5 V´s)<br>
-........Set up, operate and scale a Relational SQL database in the cloud.<br>
-........Aurora, PostgreSQL, MySQL, MariaDB, OracleDB and SQL Server.<br>
-......Amazon DynamoDB (related to VARIETY on 5 V´s)<br>
-........Fast and flexible NoSQL database service for any scale.<br>
-........Serverless KEY-VALUE and document database that delivers single-digit millisecond performance.<br>
-........Maximize read throughput, atomicity consitency.<br>
-......Amazon OpenSearch Service (related to VARIETY on 5 V´s)<br>
-........Analyze logs, crm, social media.<br>
-........can be used as a RAG data store and using LLM model can get information from OpenSearch.<br>
-......Amazon EMR (related to VELOCITY on 5 V´s)<br>
-........Elastic Map Reduce, run and scale Apache Spark, Hive, Presto and other Big Data Worloads.<br>
-........for petabyte scale data processing, interactive analytics and Machine Learning using open-source frameworks.<br>
-........HADOOP Clusters<br>
-......Amazon MSK (related to VELOCITY on 5 V´s)<br>
-.........Amazon MSK ingest and process streaming data in REAL TIME with a fully managed APACHE KAFKA<br>
-......Amazon Kinesis Data Streams (related to VELOCITY on 5 V´s)<br>
-........Cost-effectively process and analyzes streaming data as a managed service<br>
-........ingest data from clickstream, iot, etc in real time.<br>
-........Streaming data can be fan-out out multiple consumers like EC2, lambda, Spark or Amazon EMR and Amazon Managed Service for Apache Flink.<br>
-........Amazon Kinesis is one of the focus services you have to study to be prepared for the exam.<br>
-........Amazon Kinesis is about to how i ingest data, in real-time or near real-time and how i process streaming data.<br>
-........i can store, i can process it, i can do a few different thing with that ingested data<br>
-......Amazon Lambda (related to VELOCITY on 5 V´s)<br>
-........Run Code without managing servers.<br>
-........Remember the 15 min limitation from Lambda, when you in exam to discard or to choose lambda answers<br> 
-........<br>
+###### ......... AWS Regions, AWS Availability Zones, A AWS Region is collection of AZs
+###### ......... Example: AWS ap-southeast-1 (Singapore Region), has ap-southeast-1a, ap-southeast-1b and ap-southeast-1c
+###### ......... Edge Locations is smaller endpoints for hosting cached data.
+###### ......... POP (point of presence) enables delivering content like data, videos, apps and APIs globally with low latency and higher speed.
+## ...... AWS Compute - Amazon EC2, ECS, EKS and AWS Fargate
+###### ......... EC2 is a fancy way to say a virtual machine.
+###### ......... Remember the price models for EC2 : On-Demand, Saving Plans, Dedicated Hosts, Spot Instances and Reserved Instances.
+###### ......... AMI is a blueprint for you use to launch (intantiate) a EC2.
+###### ......... an AMI is kinda off a "container image" not equal but similar in some way, it´s related, but not equal.
+###### .........
+###### ......... CONTAINERS: Contain all the code, runtime, system libraries, dependencies and configuration requirede for the app to run.
+###### ......... Multiple containers can run on same OS, sharing it´s resources. Containers engines runs the images.
+###### ......... A abstraction we can use is "a container" is like a zip file, with a lot of type of files within.
+###### ......... Container orchestration automates scheduling, development, networking, scaling, health monitoring and management of your container.
+###### ......... Orchestration maintain your SLAs agreements.
+###### ......... Orchestraion is Scheduling and Deployment: ECS Elastic Container Service and EKS Elastic Kubernetes Service they both do the exact same thing that is "orchestration".
+###### ......... At HOSTS you can choose EC2 or Fargate, whith EC2 i have to manage the VM and otherwise with Fargate the VM´s is managed by the AWS (serverless).
+###### ......... Fargate scales to 16 vCPU and 120GB memory per task to run DATA processing workloads, the serverless solution from AWS to containers.
+###### ......... Good to use with AI and ML development environment.
+## ...... Scaling and Balancing
+###### ......... Amazon EC2 Auto Scaling: <br>
+###### ......... Fleet Management: health, availability of EC2 fleet. Can replace impaired instances and balance capacity across AZs.
+###### ......... Scheduled auto scaling allow you to up or down the fleet ahead of known load changes, besides the dynamic scheduling automates the process
+###### ......... to up or down the fleet knowing some parameters, like cpu utilization.
+###### ......... Amazon EC2 Auto Scaling Groups, is like a "thermostat" to feel how to scales up or down your EC2 fleet.
+###### ......... ELB (Elastic Load Balancer) receives incoming traffic and distributes the requests across EC2 and AZs.
+###### ......... SERVERS as the single point of contact for clients.
+## ...... Networking and Security
+###### ......... Review of AWS Shared Responsibility Model.
+###### ......... Review of AMAZON Virtual Private Cloud (VPC).
+###### ......... How a lambda or a EC2 can process information inside a S3 bucket and how you set up that access
+###### ......... like routing, subnets, endpoints and the security around that, how could you integrate this and allow computation to access the storage.
+###### ......... You need to urdestang security groups and network access control lists NACL.
+###### ......... Review of Identity and Access Management (IAM)
+## ...... Storage and Databases
+###### ......... Review of AWS Storage: EFS, FSx, EBS, S3, S3 Glacier
+###### ......... NFS (network file system) for EFS, SMB and Luster for FSx.
+###### ......... EBS will be attached to a EC2 instance.
+###### ......... You have to understand S3 concepts, like: how to protect data, how to integrate a lambda function, how data gets into a S3, how S3 lifecycle works.
+###### ......... For databases you will focus on RDS, DynamoDB, Elastic Cache.
+###### ......... MemoryDB for Redis: ULTRA FAST performance with microsecond reads, millisecond writes, scalability and enterprise security.
+###### ......... USAGE of MemoryDB >> Simplifying architecture with a database with cache, Workload with ultra-fast performance, redis data structures.
+###### ......... differences between MemoryDB and ElasticCache: 
+###### ......... MemoryDB is your main Databases, resides in memory.
+###### ......... ElasticCache is a cache in front of a RDS for example.
+###### ......... Amazon NEPTUNE, related with connections in social media.
+###### ......... Amazon KEYSPACES for Apache Cassandra compatible with Cassandra Query Language fully managed by AWS.
+###### ......... Amazon DocumentDB is MongoDB compatible database, Stores, query and indexes JSON data natively using fully managed document database service.
+###### ......... For databases focus more on RDS and DynamoDB.
+## ...... The 5 V´s of Big Data
+###### ......... Volume: Total amount of data coming in to the solution, analogy: a lot of water being ingested or just a few...
+###### ......... Variety: Count and type of data sources in the solution, analogy: types of water source, lakes, rain, rivers...like PDFS, images, JSON docs, videos.
+###### ......... Velocity: Speed of data flowing throught to be processed, analogy: Fast flowing river versus a slow moving stream, like process in real time ou batch jobs.
+###### ......... Veracity: Degree to which data is accurate, precise and trusted, analogy: you have clean water and dirty water, in data coming in can be missing values.
+###### ......... Value: Ability to extract meaningful information from the data stored, analogy: there is more value in clean water, same with data dirty data,
+###### ......... missing data, impurity data provides little value to a good clean dataset.
+###### ......... All analogies is to relate the 5 V´s with thinking about WATER being ingested in a lake or a reservoir. 
+###### ......... on exam you most focus in VOLUME, VARIETY and VELOCITY.
+## ...... DATA Source Types
+###### ......... Structured DATA: Relational databases, data is organized in rows, columns, tables, 
+###### ......... Unstructured DATA: PDF, Jpeg, videos, a bunch of random data
+###### ......... Semi-Structured DATA: JSON documents (Amazon REDSHIFT)
+###### ......... How i can handle these different DATA Types.
+###  ...... Amazon Simple Storage (related to VOLUME on 5 V´s)
+###  ...... AWS Lake Formation (related to VOLUME on 5 V´s)
+###  ...... Amazon RedShift (related to VOLUME on 5 V´s)
+###  ...... Amazon Relational Database Service (related to VARIETY on 5 V´s)
+###### ........ Set up, operate and scale a Relational SQL database in the cloud.
+###### ........ Aurora, PostgreSQL, MySQL, MariaDB, OracleDB and SQL Server.
+###  ...... Amazon DynamoDB (related to VARIETY on 5 V´s)
+###### ........ Fast and flexible NoSQL database service for any scale.
+###### ........ Serverless KEY-VALUE and document database that delivers single-digit millisecond performance.
+###### ........ Maximize read throughput, atomicity consitency.
+###  ...... Amazon OpenSearch Service (related to VARIETY on 5 V´s)
+###### ........ Analyze logs, crm, social media.
+###### ........ can be used as a RAG data store and using LLM model can get information from OpenSearch.
+###  ...... Amazon EMR (related to VELOCITY on 5 V´s)
+###### ........ Elastic Map Reduce, run and scale Apache Spark, Hive, Presto and other Big Data Worloads.
+###### ........ for petabyte scale data processing, interactive analytics and Machine Learning using open-source frameworks.
+###### ........ HADOOP Clusters
+###  ...... Amazon MSK (related to VELOCITY on 5 V´s)
+###### ......... Amazon MSK ingest and process streaming data in REAL TIME with a fully managed APACHE KAFKA
+###  ...... Amazon Kinesis Data Streams (related to VELOCITY on 5 V´s)
+###### ........ Cost-effectively process and analyzes streaming data as a managed service
+###### ........ ingest data from clickstream, iot, etc in real time.
+###### ........ Streaming data can be fan-out out multiple consumers like EC2, lambda, Spark or Amazon EMR and Amazon Managed Service for Apache Flink.
+###### ........ Amazon Kinesis is one of the focus services you have to study to be prepared for the exam.
+###### ........ Amazon Kinesis is about to how i ingest data, in real-time or near real-time and how i process streaming data.
+###### ........ i can store, i can process it, i can do a few different thing with that ingested data
+###  ...... Amazon Lambda (related to VELOCITY on 5 V´s)
+###### ........ Run Code without managing servers.
+###### ........ Remember the 15 min limitation from Lambda, when you in exam to discard or to choose lambda answers<br> 
+###### ........
 ........Question 1:<br>
 ...........An Amazon Kinesis application is trying to read data from a Kinesis data stream. However, the read data call is rejected.<br>
 ...........The following error message is displayed: ProvisionedThroughputException.<br>
