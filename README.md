@@ -430,7 +430,12 @@ connect to one central file share, it´s grow and shrink as data is added or del
 ####### Trusted way to migrate 1M+ databases with minimal downtime
 ####### AWS DMS and AWS Schema Conversion Tool (SCT) will use AWS SCT.
 ####### 
-
+<h1># 2025-01-14 - Four Live Sessions </h1><br>
+EdN - Live Escola da Nuvem
+Bootcamp IA para Startups
+ONE Brasil - Hello, Oracle ONE!
+Proz - Arquitetos na Nuvem
+<br>
 
 
 ---////<br><br>
