@@ -42,49 +42,48 @@
 ###### ........ You see structured data, semi-structured data and unstructured data.
 ###### ........ You have to kwnow what tools/services you use to convert schemas and how schemas evolve.
 ## ...... Domain 3 : Data Operations and Support ( 22% of the exam )
+###### ...... 1. Automate data processing by using AWS services
+###### ...... 2. Analyze data by using AWS Services
+###### ...... 3. Maintain and monitor data pipelines 
+###### ...... 4. Ensure data quality 
+###### ........ At this point you ingested and stored data, now is the time to process, and extract insights from the data 
+###### ........ How do i automate data processing using AWS services ? 
+###### ........ Focus on STEP FUNCTIONS, AWS GLUE, AWS SAGE MAKER, this exam do not focus on Machine Learning but SAGE MAKER can process data 
+###### ........ You should be familiar with SAGE MAKER DATA WRANGLER and some components around it.
+###### ........ You may see LAMBDA, EVENT BRIDGE and different ways to automate and process data.
+###### ........ The exam is more focused in DATA than the analytics, but you have to look at ATHENA, QUICKSIGHT 
+###### ........ AWS GLUE and CLOUDWATCH come up in the Maintain and monitor data pipelines.
+###### ........ To ensure data quality you have to use AWS GLUE, AWS GLUE DATA BREW, example: empty fields, missing data in a data set, etc. 
+## ...... Domain 4 : Data Security and Governance ( 18% of the exam )
+###### ...... 1. Apply authentication mechanisms 
+###### ...... 2. Apply authorization mechanisms 
+###### ...... 3. Ensure data encryption ans masking 
+###### ...... 4. Prepare logs for audity 
+###### ...... 5. Understand data privacy and governance
+###### ........ At this point you knows about ingestion, storage, the operation aspect and how to process data.
+###### ........ The Domain 4 is about security and governance aspect of the data environment.
+###### ........ Aspects of VPC, IAM: example: How to process data in S3 tha it´s outside your VPC. 
+###### ........ How to access data in REDSHIFT, his tables, rows and columns.
+###### ........ KMS Service to encrypt data. 
+###### ........ CLOUDWATCH and CLOUDTRAIL services to audity the data environment.
+###### ........ Example of governance: PII identified by AWS MACIE and how to integrate it with LAKE FORMATION. 
+###### ........ At governance aspect of DATA Environment we will look at how to use AWS CONFIG.
+###### ........
+## The resume of this 4 Domains is a high level concise content, use exam guide to deep dive in it´s aspects.
+###### ........
+###### useful resource:
+###### Data Engineer- Associate ProgramGuide
+###### Saiba mais ==> <link>https://partners.awscloud.com/rs/302-CJJ-746/images/Program%20Guide_APCR_DEA_NAMER.pdf</link>
+###### 
+# Video 02 - Content Review Session
+###### ........ You have to firmly understand the foundational concepts of AWS Cloud, a lot of this content will help you fix and
+###### remember concepts will help you deep dive in more advanceds topics.
+### WEEK 01 - AWS Tech & DATA Fundamentals
+###### ...Video will cover: AWS Compute, AWS Networking, AWS Storage, AWS Databases, The Three V´s of DATA and AWS Services per "V"
+## AWS Global Infrastructure review 
+###### ........ AWS Regions, AWS Availability Zones, A AWS Region is collection of AZs
 
-...... 1. Automate data processing by using AWS services <br>
-...... 2. Analyze data by using AWS Services <br>
-...... 3. Maintain and monitor data pipelines <br>
-...... 4. Ensure data quality <br>
-........ At this point you ingested and stored data, now is the time to process, and extract insights from the data <br>
-........ How do i automate data processing using AWS services ? <br>
-........ Focus on STEP FUNCTIONS, AWS GLUE, AWS SAGE MAKER, this exam do not focus on Machine Learning but SAGE MAKER can process data <br>
-........ You should be familiar with SAGE MAKER DATA WRANGLER and some components around it.<br>
-........ You may see LAMBDA, EVENT BRIDGE and different ways to automate and process data.<br>
-........ The exam is more focused in DATA than the analytics, but you have to look at ATHENA, QUICKSIGHT <br>
-........ AWS GLUE and CLOUDWATCH come up in the Maintain and monitor data pipelines.<br>
-........ To ensure data quality you have to use AWS GLUE, AWS GLUE DATA BREW, example: empty fields, missing data in a data set, etc. <br>
-////----<br>
-<h2>...... Domain 4 : Data Security and Governance ( 18% of the exam )</h2> <br>
-...... 1. Apply authentication mechanisms <br>
-...... 2. Apply authorization mechanisms <br>
-...... 3. Ensure data encryption ans masking <br>
-...... 4. Prepare logs for audity <br>
-...... 5. Understand data privacy and governance <br>
-........ At this point you knows about ingestion, storage, the operation aspect and how to process data.<br>
-........ The Domain 4 is about security and governance aspect of the data environment.<br>
-........ Aspects of VPC, IAM: example: How to process data in S3 tha it´s outside your VPC. <br>
-........ How to access data in REDSHIFT, his tables, rows and columns.<br>
-........ KMS Service to encrypt data. <br>
-........ CLOUDWATCH and CLOUDTRAIL services to audity the data environment.<br>
-........ Example of governance: PII identified by AWS MACIE and how to integrate it with LAKE FORMATION. <br>
-........ At governance aspect of DATA Environment we will look at how to use AWS CONFIG <br>
-........<br>
-<h2>The resume of this 4 Domains is a high level concise content, use exam guide to deep dive in it´s aspects.</h2>
-........<br>
-useful resource:<br>
-Data Engineer- Associate ProgramGuide<br>
-. <link>https://partners.awscloud.com/rs/302-CJJ-746/images/Program%20Guide_APCR_DEA_NAMER.pdf</link>
-<hr>
-<h1>Video 02 - Content Review Session</h1><br>
-..............You have to firmly understand the foundational concepts of AWS Cloud, a lot of this content will help you fix and<br>
-remember concepts will help you deep dive in more advanceds topics.<br>
-WEEK 01 - AWS Tech & DATA Fundamentals<br>
-...Video will cover: AWS Compute, AWS Networking, AWS Storage, AWS Databases, The Three V´s of DATA and AWS Services per "V"<br>
-...b <br>
-...... <h2>AWS Global Infrastructure review</h2> <br>
-......... AWS Regions, AWS Availability Zones, A AWS Region is collection of AZs <br>
+
 ......... Example: AWS ap-southeast-1 (Singapore Region), has ap-southeast-1a, ap-southeast-1b and ap-southeast-1c <br>
 ......... Edge Locations is smaller endpoints for hosting cached data.<br>
 ......... POP (point of presence) enables delivering content like data, videos, apps and APIs globally with low latency and higher speed.<br> 
