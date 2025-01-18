@@ -433,7 +433,14 @@ Bootcamp IA para Startups
 ONE Brasil - Hello, Oracle ONE!
 Proz - Arquitetos na Nuvem
 <br>
-
+2025-01-15
+Soft Skills Oracle ONE!
+2025-01-16
+Soft Skills Oracle ONE!
+2025-01-17
+Video aula Sebrae AWS
+2025-01-18
+Finalizado o Curso SEBRAE / AWS
 
 ---////<br><br>
 This Redme.md is in development<br>
