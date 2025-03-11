@@ -444,5 +444,9 @@ Video aula Sebrae AWS
 2025-01-18
 Finalizado o Curso SEBRAE / AWS
 
+2025-03-11
+Iniciando o Curso: Complete AWS Certified Data Engineer Associate - DEA-C01 by Nikolai Schuler ( Udemy )
+Projetando a prova de exame do DEA para 24-03-2025.
+
 ---////<br><br>
 This Redme.md is in development<br>
