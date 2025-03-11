@@ -174,6 +174,8 @@
 ###### ........ Run Code without managing servers.
 ###### ........ Remember the 15 min limitation from Lambda, when you in exam to discard or to choose lambda answers<br> 
 ###### ........
+
+
 ........Question 1:<br>
 ...........An Amazon Kinesis application is trying to read data from a Kinesis data stream. However, the read data call is rejected.<br>
 ...........The following error message is displayed: ProvisionedThroughputException.<br>
